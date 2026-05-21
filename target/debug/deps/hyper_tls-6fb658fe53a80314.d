@@ -1,0 +1,9 @@
+C:\Users\leandro_mendes.ADVENTISTAS\Downloads\computational thinking-20260311T235044Z-1-001\computational thinking\target\debug\deps\hyper_tls-6fb658fe53a80314.d: C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\lib.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\client.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\stream.rs
+
+C:\Users\leandro_mendes.ADVENTISTAS\Downloads\computational thinking-20260311T235044Z-1-001\computational thinking\target\debug\deps\libhyper_tls-6fb658fe53a80314.rlib: C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\lib.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\client.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\stream.rs
+
+C:\Users\leandro_mendes.ADVENTISTAS\Downloads\computational thinking-20260311T235044Z-1-001\computational thinking\target\debug\deps\libhyper_tls-6fb658fe53a80314.rmeta: C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\lib.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\client.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\stream.rs
+
+C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\lib.rs:
+C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\client.rs:
+C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-tls-0.5.0\src\stream.rs:

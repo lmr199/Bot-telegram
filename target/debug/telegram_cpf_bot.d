@@ -1,0 +1,1 @@
+C:\Users\leandro_mendes.ADVENTISTAS\Downloads\computational\ thinking-20260311T235044Z-1-001\computational\ thinking\target\debug\telegram_cpf_bot.exe: C:\Users\leandro_mendes.ADVENTISTAS\Downloads\computational\ thinking-20260311T235044Z-1-001\computational\ thinking\src\main.rs

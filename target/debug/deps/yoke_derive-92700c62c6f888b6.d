@@ -1,0 +1,7 @@
+C:\Users\leandro_mendes.ADVENTISTAS\Downloads\computational thinking-20260311T235044Z-1-001\computational thinking\target\debug\deps\yoke_derive-92700c62c6f888b6.d: C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\lib.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\lifetimes.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\visitor.rs
+
+C:\Users\leandro_mendes.ADVENTISTAS\Downloads\computational thinking-20260311T235044Z-1-001\computational thinking\target\debug\deps\yoke_derive-92700c62c6f888b6.dll: C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\lib.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\lifetimes.rs C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\visitor.rs
+
+C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\lib.rs:
+C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\lifetimes.rs:
+C:\Users\leandro_mendes.ADVENTISTAS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\yoke-derive-0.8.2\src\visitor.rs:
