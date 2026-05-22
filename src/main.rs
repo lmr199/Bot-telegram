@@ -28,7 +28,7 @@ struct Chat {
 
 fn get_updates(token: &str) -> Option<(i64, String, u64)> {
     let url = format!(
-        "https://api.telegram.org/bot{}/getUpdates?offset=-1",
+      "https://api.telegram.org/bot{}/getUpdates"
         token
     );
     let response = reqwest::blocking::get(&url).ok()?;
