@@ -91,7 +91,7 @@ fn main() {
                 let reply = if validate_cpf(&text) {
                     "✅ Boa chefe, você existe!!"
                 } else {
-                    "❌ Sai daí robô!"
+                    "❌ Sai daí, robô!!"
                 };
                 send_message(&token, chat_id, reply);
             }
