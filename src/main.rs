@@ -1,4 +1,3 @@
-```rust
 use std::env;
 use std::thread;
 use std::time::Duration;
