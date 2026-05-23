@@ -1,3 +1,4 @@
+```rust
 use std::env;
 use std::thread;
 use std::time::Duration;
@@ -13,7 +14,7 @@ struct Response {
 #[derive(Deserialize)]
 struct Update {
     update_id: i64,
-    message: Message,
+    message: Option<Message>,
 }
 
 #[derive(Deserialize)]
@@ -128,19 +129,22 @@ fn main() {
 
                 last_update_id = update.update_id;
 
-                if let Some(text) = update.message.text {
+                if let Some(message) = update.message {
 
-                    let reply = if validate_cpf(&text) {
-                        "✅ Boa chefe, você existe!!"
-                    } else {
-                        "❌ Sai daí, robô!!"
-                    };
+                    if let Some(text) = message.text {
 
-                    send_message(
-                        &token,
-                        update.message.chat.id,
-                        reply
-                    );
+                        let reply = if validate_cpf(&text) {
+                            "✅ Boa chefe, você existe!!"
+                        } else {
+                            "❌ Sai daí, robô!!"
+                        };
+
+                        send_message(
+                            &token,
+                            message.chat.id,
+                            reply
+                        );
+                    }
                 }
             }
         }
@@ -148,3 +152,4 @@ fn main() {
         thread::sleep(Duration::from_secs(2));
     }
 }
+
