@@ -1,0 +1,2 @@
+[providers.rust]
+rustupToolchain = "1.86.0"
