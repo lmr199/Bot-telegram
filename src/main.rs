@@ -116,6 +116,9 @@ fn main() {
 
                 if let Some(message) = update.message {
                     if let Some(text) = message.text {
+                        if text.starts_with('/') && text.trim() != "/start" {
+                        return; 
+                        }
                         let reply = if text.trim() == "/start" {
                             "Olá, me mande um CPF para validação"
                         } else if validate_cpf(&text) {
