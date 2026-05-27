@@ -116,20 +116,20 @@ fn main() {
 
                 if let Some(message) = update.message {
                     if let Some(text) = message.text {
-                    }
-                    let reply = if text.trim() == "/start" {
-                        "Olá, me mande um CPF para validação"
-                    } else if validate_cpf(&text) {
-                        "✅ Boa chefe, você existe!!"
-                    } else {
-                        "❌ Sai daí, robô!!"
-                    };
+                        let reply = if text.trim() == "/start" {
+                            "Olá, me mande um CPF para validação"
+                        } else if validate_cpf(&text) {
+                            "✅ Boa chefe, você existe!!"
+                        } else {
+                            "❌ Sai daí, robô!!"
+                        };
 
-                    send_message(&token, message.chat.id, reply);
+                        send_message(&token, message.chat.id, reply);
+                    }
                 }
             }
         }
-    }
 
-    thread::sleep(Duration::from_secs(2));
+        thread::sleep(Duration::from_secs(2));
+    }
 }
