@@ -30,7 +30,7 @@ struct Chat {
 fn get_updates(token: &str, offset: i64) -> Option<Vec<Update>> {
 
     let url = format!(
-        "https://api.telegram.org/bot{}/getUpdates?offset={}",
+        "https://api.telegram.org/bot{}/getUpdates?offset={}&timeout=10",
         token,
         offset
     );
@@ -148,7 +148,7 @@ fn main() {
             }
         }
 
-        thread::sleep(Duration::from_secs(2));
+        thread::sleep(Duration::from_secs(1));
     }
 }
 
