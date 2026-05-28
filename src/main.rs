@@ -116,17 +116,17 @@ fn main() {
     if let Some(updates) = get_updates(&token, 0) {
 
         if let Some(last) = updates.last() {
-            last_update_id = last.update_id;
+            last_update_id = last.update_id + 1;
         }
     }
 
     loop {
 
-        if let Some(updates) = get_updates(&token, last_update_id + 1) {
+        if let Some(updates) = get_updates(&token, last_update_id) {
 
             for update in updates {
 
-                last_update_id = update.update_id;
+                last_update_id = update.update_id + 1;
 
                 if let Some(message) = update.message {
 
